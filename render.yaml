@@ -12,6 +12,20 @@ services:
         fromDatabase:
           name: edumosaic-db
           property: connectionString
+    system_packages:
+      - libjpeg-dev
+      - zlib1g-dev
+      - libpng-dev
+      - libfreetype6-dev
+      - libtiff5-dev
+      - libwebp-dev
+      - libx11-dev
+      - libxext-dev
+      - libxrender-dev
+      - libxslt1-dev
+      - liblcms2-dev
+      - libharfbuzz-dev
+      - libfribidi-dev
     buildFilter:
       paths:
         - requirements.txt
