@@ -9,11 +9,14 @@ bcrypt==4.1.2
 PyJWT==2.8.0
 gunicorn==21.2.0
 aiofiles==23.2.1
-pydantic==1.10.13
 alembic==1.12.1
 
 # PostgreSQL driver
 psycopg2-binary==2.9.9
+
+# Pydantic (v2 compatible with FastAPI 0.103)
+pydantic==2.6.4
+pydantic-core==2.16.3
 
 # Build tools
 pip>=25.1.1
