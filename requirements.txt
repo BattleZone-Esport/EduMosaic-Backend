@@ -9,11 +9,12 @@ bcrypt==4.1.2
 PyJWT==2.8.0
 gunicorn==21.2.0
 aiofiles==23.2.1
-pydantic==2.5.3
+pydantic==2.4.2
+pydantic-core==2.10.1
 alembic==1.12.1
 
-# Postgres driver
-psycopg[binary]==3.2.9
+# Postgres driver (use binary to avoid compiling C)
+psycopg[binary]==3.1.12
 
 # Build tools
 pip>=25.1.1
