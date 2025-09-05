@@ -13,7 +13,7 @@ pydantic==2.4.2
 pydantic-core==2.10.1
 alembic==1.12.1
 
-# Postgres driver (use binary to avoid compiling C)
+# Postgres driver (binary only, no source build)
 psycopg[binary]==3.1.12
 
 # Build tools
