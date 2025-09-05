@@ -36,4 +36,4 @@ This backend powers the EduMosaic mobile app (Android & iOS) with secure authent
 ### 1️⃣ Clone the Repository
 ```bash
 git clone https://github.com/your-username/EduMosaic-Backend.git
-cd EduMosaic-Backend
+cd EduMosaic-Backend# trigger runtime update
