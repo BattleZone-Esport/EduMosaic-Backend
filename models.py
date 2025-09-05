@@ -1,5 +1,5 @@
 from sqlalchemy import (
-    Boolean, Column, Integer, String, Text, JSON, DateTime,
+    Boolean, Index, Column, Integer, String, Text, JSON, DateTime,
     ForeignKey, UniqueConstraint, Float, Table, Enum, ARRAY, CheckConstraint,
     BigInteger, Numeric, Date
 )
