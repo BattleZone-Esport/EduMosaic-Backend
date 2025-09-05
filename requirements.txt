@@ -12,8 +12,9 @@ aiofiles==23.2.1
 pydantic==1.10.13
 alembic==1.12.1
 
-psycopg2-binary~=2.9.0
-psycopg[binary]~=3.1.19
+# PostgreSQL drivers (safe combo)
+psycopg2-binary==2.9.9
+psycopg[binary]==3.1.19
 
 # Build tools
 pip>=25.1.1
