@@ -11,10 +11,10 @@ gunicorn==21.2.0
 aiofiles==23.2.1
 alembic==1.12.1
 
-# PostgreSQL driver
+# PostgreSQL
 psycopg2-binary==2.9.9
 
-# Pydantic (v2 compatible with FastAPI 0.103)
+# FastAPI needs Pydantic v2
 pydantic==2.6.4
 pydantic-core==2.16.3
 
