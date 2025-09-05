@@ -23,7 +23,7 @@ import cloudinary.uploader
 import collections
 import collections.abc
 
-# Patch for Python 3.12 compatibility
+# ✅ Patch for Python 3.13+ compatibility
 for attr in ("Mapping", "MutableMapping", "Sequence"):
     if not hasattr(collections, attr):
         setattr(collections, attr, getattr(collections.abc, attr))
