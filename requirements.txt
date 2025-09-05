@@ -14,6 +14,7 @@ prometheus-client==0.16.0
 
 # PostgreSQL
 psycopg2-binary==2.9.9
+psycopg==3.1.16
 
 # FastAPI needs Pydantic v2 (use prebuilt wheels to avoid Rust compilation)
 pydantic==2.9.2
